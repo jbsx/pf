@@ -1,0 +1,63 @@
+form{
+    margin-top: 10vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+label{
+    color: var(--main-clr);
+    font-family: var(--main-font);
+}
+
+input{
+    margin-bottom: 15px;
+    height: 25px;
+    font-size: 15px;
+    color: var(--bg-clr);
+    font-family: var(--main-font);
+    outline: none;
+}
+
+textarea{
+    resize: vertical;
+    font-size: 15px;
+    color: var(--bg-clr);
+    font-family: var(--main-font);
+    height: 200px;
+    outline: none;
+}
+
+button{
+    color: var(--bg-clr);
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--main-clr);
+}
+
+button:hover{
+    background-color: white;
+}
+
+#blackman{
+    height: 50px;
+    width: 50px;
+}

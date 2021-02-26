@@ -1,0 +1,18 @@
+.tagcloud {
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+}
+
+.tagcloud--item {
+    padding: 2px 4px;
+}
+
+.cloudcontainer{
+    height: 700px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

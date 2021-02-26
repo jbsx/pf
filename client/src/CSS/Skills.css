@@ -1,0 +1,28 @@
+#skills-container{
+    position: relative;
+    height: 90vh;
+    width: 1250px;
+    left: 50%;
+    margin-bottom: 40px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#skills-text{
+    width: 500px;
+    font-family: var(--main-font);
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#skills-text a{
+    color: var(--accent-clr);
+    text-decoration: none;
+}
+
+#sellout{
+    color: var(--main-clr);
+}

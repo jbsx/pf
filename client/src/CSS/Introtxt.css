@@ -1,0 +1,25 @@
+#intro-container{
+    min-height: calc(100vh - 126px);
+    width: 1250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+#intro-txt{
+    color: white;
+    font-family: var(--main-font);
+    font-size: 36px;
+    white-space: nowrap;
+}
+
+TypeIt{
+    width: 200px;
+}
+
+#typeit-container{
+    position: relative;
+    left: 20%;
+}

@@ -1,0 +1,15 @@
+#footer{
+    background-color: var(--main-clr);
+    margin-top: 10vh;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer span{
+    color: var(--bg-clr);
+    font-family: var(--main-font);
+    font-size: 12px;
+    font-weight: 900;
+}

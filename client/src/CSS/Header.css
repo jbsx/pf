@@ -1,0 +1,51 @@
+header{
+    margin: 0%;
+    margin-top: 20px;
+    padding: 0%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    position: relative;
+    right: 0%;
+    list-style: none;
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+ul li{
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
+
+li Link{
+    font-family: var(--main-font);
+    text-decoration: none;
+    color: var(--main-clr);
+}
+
+li:hover{
+    opacity: 0.5;
+}
+
+.rotated{
+    animation: rotateLogo 0.5s ease forwards;
+}
+
+@keyframes rotateLogo{
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(45);
+    }
+}

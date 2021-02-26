@@ -1,0 +1,30 @@
+#socials{
+    position: relative;
+    height: 200px;
+    width: 1250px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.socails-button{
+    background-color: transparent;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
+}
+
+.socails-button:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.socails-button img{
+    width: 100%;
+}

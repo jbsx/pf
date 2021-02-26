@@ -1,0 +1,57 @@
+#about{
+    position: relative;
+}
+
+#content{
+    max-width: 1250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+    min-height: 90vh;
+}
+
+#about-desc{
+    width: 500px;
+    font-family: var(--main-font);
+    color: var(--main-clr);
+    font-size: 18px;
+    text-align: justify;
+}
+
+#myPhoto{
+    height: 70vh;
+}
+
+#container-2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 800px;
+    font-family: var(--main-font);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bold{
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+@media only screen and (min-height: 1350px) {
+    #myPhoto {
+      height: 945px;
+    }
+  }
