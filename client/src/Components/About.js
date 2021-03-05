@@ -13,7 +13,7 @@ function About() {
                     <span id='about-desc'> 
                         <span className='bold'>Hello! <br/>
                         My name is Jaish Singh. I am a Nepali who was born in Moscow, Russia. I later moved to India for secondary education and I'm currently taking a gap year in Delhi, India after graduating high school.<br/><br/></span>
-                        When I'm not programming, I'm usually busy scrolling Reddit for memes or finding hobbies. Recently I've been obsessed over mechanical keyboards and have started to improve my typing speed. I'm currently at 70 WPM and am trying to get to 100+ WPM.
+                        When I'm not programming, I'm usually busy scrolling Reddit for memes or finding hobbies. Recently I've been obsessed over mechanical keyboards and have started to improve my typing speed. I'm currently at around 85 WPM and am trying to get to 100+ WPM average consistently.
                     </span>
                     <img src={photo} alt='myPhoto' id='myPhoto'></img>
                 </div>
