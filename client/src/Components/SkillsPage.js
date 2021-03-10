@@ -8,7 +8,7 @@ import NodeLogo from '../Images/Node.png'
 import JSLogo from '../Images/JS.png'
 import CSS3Logo from '../Images/CSS3.png'
 import ExpressLogo from '../Images/Express.png'
-import NPMLogo from '../Images/NPM.png'
+import DockerLogo from '../Images/Docker.png'
 import MySQLLogo from '../Images/MySQL.png'
 import JavaLogo from '../Images/Java.png'
 import MongoDBLogo from '../Images/MongoDB.png'
@@ -16,53 +16,53 @@ import MongoDBLogo from '../Images/MongoDB.png'
 function SkillsPage() {
     
     const info = [{
-        id:'MongoDB',
-        imgName:MongoDBLogo,
-        time:'Half a Year',
-        proficiency:'Beginner'
+        id:'HTML5',
+        imgName:HTML5Logo,
+        time:'5 Years',
+        proficiency:'Advanced'
+    },{
+        id:'CSS3',
+        imgName:CSS3Logo,
+        time:'3 Years',
+        proficiency:'Advanced'
+    },{
+        id:'JavaScript',
+        imgName:JSLogo,
+        time:'3 Years',
+        proficiency:'Intermediate'
+    },{
+        id:'Java',
+        imgName:JavaLogo,
+        time:'4 Years',
+        proficiency:'Intermediate'
+    },{
+        id:'MySQL',
+        imgName:MySQLLogo,
+        time:'2 Year',
+        proficiency:'Intermediate'
+    },{
+        id:'Node/NPM',
+        imgName:NodeLogo,
+        time:'1 Year',
+        proficiency:'Advanced'
+    },{
+        id:'React',
+        imgName:ReactLogo,
+        time:'1 Years',
+        proficiency:'Intermediate'
     },{
         id:'Express',
         imgName:ExpressLogo,
         time:'1 Year',
         proficiency:'Intermediate'
     },{
-        id:'React',
-        imgName:ReactLogo,
+        id:'MongoDB',
+        imgName:MongoDBLogo,
         time:'1 Year',
         proficiency:'Intermediate'
     },{
-        id:'Node',
-        imgName:NodeLogo,
-        time:'1 Year',
-        proficiency:'Intermediate'
-    },{
-        id:'HTML5',
-        imgName:HTML5Logo,
-        time:'3 Years',
-        proficiency:'Advanced'
-    },{
-        id:'CSS3',
-        imgName:CSS3Logo,
-        time:'2 Years',
-        proficiency:'Advanced'
-    },{
-        id:'JavaScript',
-        imgName:JSLogo,
-        time:'2 Years',
-        proficiency:'Intermediate'
-    },{
-        id:'NPM',
-        imgName:NPMLogo,
-        time:'1 Year',
-        proficiency:'Advanced'
-    },{
-        id:'Java',
-        imgName:JavaLogo,
-        time:'3 Years',
-        proficiency:'Advanced'
-    },{
-        id:'MySQL',
-        imgName:MySQLLogo,
+        id:'Docker',
+        imgName:DockerLogo,
         time:'1 Year',
         proficiency:'Intermediate'
     },]
