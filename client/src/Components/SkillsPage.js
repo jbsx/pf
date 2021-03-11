@@ -38,7 +38,7 @@ function SkillsPage() {
     },{
         id:'MySQL',
         imgName:MySQLLogo,
-        time:'2 Year',
+        time:'2 Years',
         proficiency:'Intermediate'
     },{
         id:'Node/NPM',
