@@ -48,7 +48,7 @@ function SkillsPage() {
     },{
         id:'React',
         imgName:ReactLogo,
-        time:'1 Years',
+        time:'1 Year',
         proficiency:'Intermediate'
     },{
         id:'Express',
@@ -82,7 +82,7 @@ function SkillsPage() {
                 }
             </div>
 
-            <a href='./resume'>
+            <a href={`../Resume.pdf`} target='_blank'>
                 <button id='resume-button'>
                     Resume
                 </button>
