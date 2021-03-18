@@ -36,10 +36,16 @@ function ContactForm() {
         
         setTimeout(()=>{
             setSent(false)
+            document.getElementById("submit-button").classList.remove("sent-clr-change");
         }, 3000)
     }
 
-    useEffect(() => {if(Sent)setLoader(false)}, [Sent])
+    useEffect(() => {
+        if(Sent){
+            setLoader(false)
+            document.getElementById("submit-button").classList.add("sent-clr-change");
+        }
+    }, [Sent])
     
     return (
         <form className='Contact-form' onSubmit={handlesubmit}>
@@ -54,9 +60,9 @@ function ContactForm() {
            <input placeholder='E-mail' input='email' value={Email} onChange={(e)=>{setEmail(e.target.value)}}/>
 
            <label>Message</label>
-           <textarea placeholder='Message' input='text' value={Message} onChange={(e)=>{setMessage(e.target.value)}}></textarea>
+           <textarea placeholder='Type your message here' input='text' value={Message} onChange={(e)=>{setMessage(e.target.value)}}></textarea>
 
-            <button type='submit'>
+            <button type='submit' id='submit-button'>
                 {loader ? "Sending..." : Sent ? "Sent ✔" : "Submit"}
             </button>
 

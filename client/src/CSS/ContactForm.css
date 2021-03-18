@@ -28,6 +28,9 @@ input{
     color: var(--bg-clr);
     font-family: var(--main-font);
     outline: none;
+    border: 0px;
+    background-color: rgb(60, 60, 60);
+    color: white;
 }
 
 textarea{
@@ -37,6 +40,9 @@ textarea{
     font-family: var(--main-font);
     height: 200px;
     outline: none;
+    border: 0px;
+    background-color: rgb(60, 60, 60);
+    color: white;
 }
 
 button{
@@ -57,7 +63,6 @@ button:hover{
     background-color: white;
 }
 
-#blackman{
-    height: 50px;
-    width: 50px;
+.sent-clr-change{
+    background-color: var(--accent-clr);
 }
