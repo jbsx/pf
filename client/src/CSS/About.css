@@ -26,6 +26,14 @@
     text-align: justify;
 }
 
+#about-desc a{
+    color: var(--main-clr);
+}
+
+#about-desc a:hover{
+    color: white;
+}
+    
 #myPhoto{
     height: 70vh;
 }
@@ -47,7 +55,7 @@
 .bold{
     color: white;
     font-size: 21px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 @media only screen and (min-height: 1350px) {

@@ -13,9 +13,9 @@ export class Introtxt extends Component {
                         .type(`Hi, I'm Jaish,`)
                         .pause(300)
                         .break()
-                        .type(`I'm a full`)
+                        .type(`I'm a fu`)
                         .pause(500)
-                        .delete(4)
+                        .delete(2)
                         .pause(300)
                         .type(`Full Stack Software Developer.`);
 

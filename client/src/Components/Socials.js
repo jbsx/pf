@@ -17,8 +17,8 @@ function Socials() {
                 <img src={GithubLogo} alt='Guthub Logo'></img>
             </button>
             </a>
-            <a href='https://linkedin.com'>
-            <button className='socails-button' target='blank'>
+            <a href='https://www.linkedin.com/in/jaish-singh-12b976209' target="blank">
+            <button className='socails-button'>
                 <img src={LinkedInLogo} alt='LinkedIn Logo'></img>
             </button>
             </a>

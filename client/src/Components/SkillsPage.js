@@ -12,6 +12,8 @@ import DockerLogo from '../Images/Docker.png'
 import MySQLLogo from '../Images/MySQL.png'
 import JavaLogo from '../Images/Java.png'
 import MongoDBLogo from '../Images/MongoDB.png'
+import SolidityLogo from '../Images/Solidity.png'
+import TruffleLogo from '../Images/Truffle.png'
 
 function SkillsPage() {
     
@@ -65,6 +67,16 @@ function SkillsPage() {
         imgName:DockerLogo,
         time:'1 Year',
         proficiency:'Intermediate'
+    },{
+        id:'Solidity',
+        imgName:SolidityLogo,
+        time:'1 Year',
+        proficiency:'Intermediate'
+        },{
+        id:'Truffle',
+        imgName:TruffleLogo,
+        time:'1 Year',
+        proficiency:'Intermediate'
     },]
         
         const chuspal = (idName)=>{document.getElementById(idName).scrollIntoView({behavior:'smooth'})}
@@ -82,7 +94,7 @@ function SkillsPage() {
                 }
             </div>
 
-            <a href={`../Resume.pdf`} target='_blank'>
+            <a href={`https://drive.google.com/drive/folders/1r5MTEyt3SzBeEGjRGIO3h6nkqbVf7RPC?usp=sharing`} target='_blank'>
                 <button id='resume-button'>
                     Resume
                 </button>

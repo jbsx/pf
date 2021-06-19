@@ -11,15 +11,17 @@ function About() {
             <div id="content">
                 <div id="container-1">
                     <span id='about-desc'> 
-                        <span className='bold'>Hello! <br/>
-                        My name is Jaish Singh. I am a Nepali who was born in Moscow, Russia. I later moved to India for secondary education and I'm currently taking a gap year in Delhi, India after graduating high school.<br/><br/></span>
-                        When I'm not programming, I'm usually busy scrolling Reddit for memes or finding hobbies. Recently I've been obsessed over mechanical keyboards and have started to improve my typing speed. I'm currently at around 85 WPM and am trying to get to 100+ WPM average consistently.
+                        <span className='bold'>Hi! <br/>
+                        I'm Jaish, a full stack software developer passionate about the web. Over the course of developing numerous software applications, I have developed strong troubleshooting and debugging skills along with a variety of interests which I leverage to maximize my potential.
+                        <br/><br/></span>
+                        
+                        As a Computer Science undergraduate, I'm actively seeking internship opportunities.
+                        If you're a recruiter, you can find my achievements and experience in my <a href="https://drive.google.com/drive/folders/1r5MTEyt3SzBeEGjRGIO3h6nkqbVf7RPC?usp=sharing" target="blank">resume</a>.
                     </span>
                     <img src={photo} alt='myPhoto' id='myPhoto'></img>
                 </div>
                 <span id='container-2'>
-                    This section is supposed to be about my education and professional experience but since I'm just a high school graduate and haven't exactly worked anywhere yet, I don't have much to add here. So, for now you can read some lorem instead! (⊙_⊙;)<br/>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum rerum architecto, sit, et quam sunt accusantium consequuntur vel incidunt repellat facere recusandae libero illo delectus in quisquam blanditiis, odio corporis?
+                    When I'm not coding, I enjoy indulging in various hobbies that spike my curiosity such as improving typing speed.
                 </span>
             </div>
             <Footer/>
