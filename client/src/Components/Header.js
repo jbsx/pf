@@ -44,9 +44,8 @@ function Header() {
       </Link>
       <ul>
         <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./about'>About</Link></li>
-        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./skills'>Skills</Link></li>
-        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><a style={links} href={`https://drive.google.com/drive/folders/1r5MTEyt3SzBeEGjRGIO3h6nkqbVf7RPC?usp=sharing`} target='_blank' >Resume</a></li>
-        {/* <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./projects'>Projects</Link></li> */}
+        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./projects'>Projects</Link></li>
+        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><a style={links} href={`https://duckduckgo.com`} target='_blank' >Resume</a></li>
       </ul>
 
     </header>

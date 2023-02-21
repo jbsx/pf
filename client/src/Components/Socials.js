@@ -7,17 +7,17 @@ import '../CSS/Socials.css'
 function Socials() {
     return (
         <div id='socials'>
-            <a href='mailto:jaish.singh007@gmail.com'>
+            <a href='mailto:jaishsingh@hotmail.com'>
                 <button className='socails-button'>
                 <img src={EmailLogo} alt='Email Logo'></img>
             </button>
             </a>
-            <a href='https://github.com/BooptyBapty' target='blank'>
+            <a href='https://github.com/jbsx' target='blank'>
             <button className='socails-button'>
                 <img src={GithubLogo} alt='Guthub Logo'></img>
             </button>
             </a>
-            <a href='https://www.linkedin.com/in/jaish-singh-12b976209' target="blank">
+            <a href='https://www.linkedin.com/in' target="blank">
             <button className='socails-button'>
                 <img src={LinkedInLogo} alt='LinkedIn Logo'></img>
             </button>

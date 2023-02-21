@@ -16,7 +16,7 @@ function About() {
                         <br/><br/></span>
                         
                         As a Computer Science undergraduate, I'm actively seeking internship opportunities.
-                        If you're a recruiter, you can find my achievements and experience in my <a href="https://drive.google.com/drive/folders/1r5MTEyt3SzBeEGjRGIO3h6nkqbVf7RPC?usp=sharing" target="blank">resume</a>.
+                        If you're a recruiter, you can find my achievements and experience in my <a href="https://duckduckgo.com" target="blank">resume</a>.
                     </span>
                     <img src={photo} alt='myPhoto' id='myPhoto'></img>
                 </div>

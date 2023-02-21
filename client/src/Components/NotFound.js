@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../SVG/Logo1.svg'
 import anime from 'animejs'
-import TypeIt from 'typeit-react'
 import '../CSS/NotFound.css'
 
 function NotFound() {
@@ -33,18 +32,6 @@ function NotFound() {
             <img onMouseEnter={toggleRotate} onMouseLeave={toggleRotate} src={logo} alt='logo' id='logo'></img>
             </Link>
             <div id="type-it-container">
-                <TypeIt id='notFound-txt'
-                        getBeforeInit={instance => {
-                            instance
-                            .type(`404`)
-                            .pause(100)
-                            .break()
-                            .pause(200)
-                            .type(`Not Found`)
-                            
-                            return instance;
-                        }}
-                />
             </div>
         </div>
     )

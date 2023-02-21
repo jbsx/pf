@@ -1,31 +1,37 @@
-import React, { Component } from 'react';
-import '../CSS/Introtxt.css'
-import TypeIt from "typeit-react";
+import {useEffect, useRef} from 'react';
+import '../CSS/Introtxt.css';
+import Typed from 'typed.js';
 
-export class Introtxt extends Component {
-    render() {
-        return (
-            <div id='intro-container'>
-                <div id='typeit-container'>
-                <TypeIt id='intro-txt'
-                    getBeforeInit={instance => {
-                        instance
-                        .type(`Hi, I'm Jaish,`)
-                        .pause(300)
-                        .break()
-                        .type(`I'm a fu`)
-                        .pause(500)
-                        .delete(2)
-                        .pause(300)
-                        .type(`Full Stack Software Developer.`);
+function Introtxt({options}) {
+    const el = useRef(null);
 
-                        return instance;
-                    }}
-                />
-                </div>
-            </div>
-        )
-    }
-}
+    useEffect(()=>{
+        const typed = new Typed(el.current, {
+            strings: [
+                `Hi, I'm Jaish`,
+                `Seeking Software Engineering job opportunities`
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            showCursor: true,
+            cursorChar: "|",
+            contentType: null,
+            backDelay: 1000,
+            loop: true,
+            loopCount: Infinity
+        });
 
-export default Introtxt
+        return () => {
+            if (!typed) return;
+            typed.destroy();
+        };
+    }, [el, options]);
+
+    return (
+        <div id='intro-container'>
+            <span className='intro-txt' id='typed' ref={el}></span>
+        </div>
+    );
+};
+
+export default Introtxt;

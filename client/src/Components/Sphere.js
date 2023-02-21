@@ -4,15 +4,16 @@ import '../CSS/Sphere.css'
 
 const container = '#tagcloud';
 const texts = [
-    'Java', 'Javascript',
-    'CSS3', 'HTML5', 'ES6', 'Node',
-    'React.js', 'Express.js', 'Git',
-    'NPM', 'Github','MySQL', 'MongoDB'
+    'Javascript', 'Rust', 'Linux', 'Python',
+    'CSS', 'HTML', 'Nodejs', 'Docker',
+    'React', 'Git', 'Solidity', 'Deno',
+    'NPM', 'MySQL', 'MongoDB', 'Bash',
+    'Vim', 'Webpack', 'Vite', 'Svelte'
 ];
 const options = {
     radius: "350",
     keep: true,
-    direction: 0,
+    direction: 60,
     maxSpeed:'normal'
 };
 
