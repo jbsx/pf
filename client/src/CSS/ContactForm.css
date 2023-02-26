@@ -1,8 +1,6 @@
 form{
     margin-top: 10vh;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -45,24 +43,13 @@ textarea{
     color: white;
 }
 
-button{
-    color: var(--bg-clr);
-    font-family: var(--main-font);
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 500;
-    height: 35px;
-    border: none;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
+.sent-clr-change{
     background-color: var(--main-clr);
 }
 
-button:hover{
-    background-color: white;
-}
-
-.sent-clr-change{
-    background-color: var(--accent-clr);
+@media screen and (max-width: 800px) {
+    form{
+        width: 90vw;
+        padding: 0px 10px;
+    }
 }

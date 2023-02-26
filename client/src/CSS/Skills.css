@@ -1,17 +1,14 @@
 #skills-container{
-    position: relative;
-    height: 90vh;
-    width: 1250px;
-    left: 50%;
-    margin-bottom: 40px;
-    transform: translateX(-50%);
+    max-width: 1250px;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #skills-text{
-    width: 500px;
+    max-width: 500px;
     font-family: var(--main-font);
     color: white;
     font-size: 18px;
@@ -25,4 +22,10 @@
 
 #sellout{
     color: var(--main-clr);
+}
+
+@media screen and (max-width: 800px) {
+    #sphere-container{
+        display: none;
+    }
 }

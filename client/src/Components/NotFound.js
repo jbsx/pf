@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../SVG/Logo1.svg'
+import logo from '../Assets/Logo1.svg'
 import anime from 'animejs'
 import '../CSS/NotFound.css'
 
-function NotFound() {
+function NotFound({options}) {
     const[rotateState, setRotate] = useState(false);
     
     let toggleRotate = ()=> setRotate(!rotateState)
@@ -31,8 +31,8 @@ function NotFound() {
             <Link to='/'>
             <img onMouseEnter={toggleRotate} onMouseLeave={toggleRotate} src={logo} alt='logo' id='logo'></img>
             </Link>
-            <div id="type-it-container">
-            </div>
+            {options.err}
+            <span id='error'>{options.msg}</span>
         </div>
     )
 }

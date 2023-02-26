@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import anime from 'animejs/lib/anime.es.js'
 import '../CSS/Header.css'
-import logo from '../SVG/Logo1.svg'
+import logo from '../Assets/Logo1.svg'
 import { Link } from 'react-router-dom'
 
 function Header() {
@@ -45,7 +45,7 @@ function Header() {
       <ul>
         <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./about'>About</Link></li>
         <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><Link style={links} to='./projects'>Projects</Link></li>
-        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><a style={links} href={`https://duckduckgo.com`} target='_blank' >Resume</a></li>
+        <li onMouseEnter={toggleRotate} onMouseLeave={toggleRotate}><a style={links} href={process.env.PUBLIC_URL + '/Resume.pdf'} target='_blank' >Resume</a></li>
       </ul>
 
     </header>

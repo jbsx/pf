@@ -1,0 +1,48 @@
+#project{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin-top: 30px;
+    color: whitesmoke;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#title{
+    font-family: var(--main-font);
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--main-clr);
+}
+
+#desc{
+    max-width: 70%;
+}
+
+.split{
+    display: flex;
+    justify-content: space-between;
+}
+
+#tags{
+    display: flex;
+    height: 40px;
+}
+
+#buttons button{
+    background-color: transparent;
+    cursor: pointer;
+    height: 55px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#buttons button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#buttons button img{
+    width: 60%;
+}

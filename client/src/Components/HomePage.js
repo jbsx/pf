@@ -1,9 +1,10 @@
-import Header from '../Components/Header';
+import Header from '../Components/Header.js';
 import Introtxt from '../Components/Introtxt';
 import Skills from '../Components/Skills';
 import Socials from '../Components/Socials';
 import ContactForm from '../Components/ContactForm';
 import Footer from '../Components/Footer';
+import '../CSS/HomePage.css'
 
 function HomePage() {
     return (
@@ -14,8 +15,8 @@ function HomePage() {
                 <Skills/>
                 <Socials/>
                 <ContactForm/>
-                <Footer/>
             </div>
+            <Footer/>
         </div>
     )
 }

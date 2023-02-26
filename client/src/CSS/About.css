@@ -19,7 +19,7 @@
 }
 
 #about-desc{
-    width: 500px;
+    max-width: 500px;
     font-family: var(--main-font);
     color: var(--main-clr);
     font-size: 18px;

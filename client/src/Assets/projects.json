@@ -1,0 +1,19 @@
+{
+    "tags":["Rust", "Javascript", "Python", "Solidity", "Docker", "SQL", "Node", "React", "Express", "MongoDB", "MySQL", "Golang" ],
+    "projects":[
+        {
+            "title":"TCP implementation in Rust",
+            "url":"",
+            "repo":"https://github.com/jbsx/tcp_stack",
+            "tags":["Rust"],
+            "desc":"A Side project, started in hopes of getting a better understanding of TCP while also learning Rust. Implemented using the TUN interface and compatible only on Linux. Spec followed as per RFC793."
+        },
+        {
+            "title":"Reddit-like Decentralised Forum",
+            "url":"https://jbsx.github.io/breaddit/#/",
+            "repo":"https://github.com/jbsx/breaddit",
+            "tags":["JS", "HTML5", "CSS3", "React", "Node"],
+            "desc":"placeholder text"
+        }
+    ]
+}

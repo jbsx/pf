@@ -2,6 +2,7 @@
     background-color: var(--main-clr);
     margin-top: 10vh;
     height: 80px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;

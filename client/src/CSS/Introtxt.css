@@ -1,17 +1,8 @@
 #intro-container{
-    min-height: calc(100vh - 126px);
-    width: 1250px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-
-    display: flex;
-    align-items: center;
+    min-height: 100px;
+    display: inline-block;
     color: white;
+    margin: 30vh 0vh;
     font-family: var(--main-font);
     font-size: 36px;
-}
-
-#typed{
-    padding-left: 10vw;
 }
